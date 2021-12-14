@@ -5,7 +5,7 @@ function ThumbnailLink(props) {
     <Link to={`/${props.pageName}/${props.pageName}.html`}>
       <img
         src={props.lowResThumb}
-        srcSet={`${props.highResThumb} ${4 * props.width}w,
+        srcSet={`${props.highResThumb} ${2 * props.width}w,
                  ${props.lowResThumb} ${props.width}w`}
         sizes={`(min-width: 481px) 25vw,
 100vw`}
