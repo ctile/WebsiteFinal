@@ -116,3 +116,30 @@ a:hover {
   color: lightblue;
   transition: 1s;
 }
+@media (max-width: 300px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 100%;
+  }
+}
+@media (max-width: 200px) {
+  .section p,
+  #sidebar,
+  nav li,
+  footer {
+    font-size: 50%;
+  }
+}
+/*@media (max-width: 481px) {
+  body,
+  header,
+  nav,
+  .section,
+  img,
+  #sidebar,
+  footer {
+    border: none;
+  }
+}
+TRIED TO REMOVE BORDERS SO I CAN WORK ON HORIZONTAL SCROLLING. THERE IS BARELY ANY HORIZONTAL SCROLLING ANYWAYS (IF ANY), AS I SHOWED YOU ON THE ZOOM. DIDN'T HAVE ENOUGH TIME TO PLAY WITH THE PERCENTAGES ANY MORE. INSTEAD I ADDED A MEDIA QUERRY TO MAKE TEXT SMALLER WHEN THE BROWSER GOES BELOW A CERTAIN WIDTH. */
