@@ -1,0 +1,24 @@
+header,
+nav,
+footer {
+  clear: both;
+}
+
+#main {
+  width: 75%;
+}
+#sidebar {
+  width: 25%;
+}
+
+.table {
+  display: table;
+  border-spacing: 10px;
+}
+.row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
